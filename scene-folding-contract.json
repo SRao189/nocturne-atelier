@@ -1,0 +1,248 @@
+{
+ "contractVersion": "2.0.0",
+ "stops": [
+  {
+   "stopIndex": 1,
+   "stopCode": "01 / 03",
+   "stopId": "courtyard_path",
+   "zoneLabel": "The path",
+   "headline": "From the path to the stair.",
+   "bodyCopy": "Limestone path bollards and warm architectural coves guide the approach from dusk into the travertine court.",
+   "luminaire": {
+    "id": "bollard_path_01",
+    "name": "Travertine Bollard Path Light",
+    "category": "Outdoor Path & Grazing",
+    "priceTag": "$240",
+    "beamAngleDeg": 68,
+    "cri": 98,
+    "baseLux": 185,
+    "defaultKelvin": 2700,
+    "defaultDimmer": 0.84,
+    "iesProfile": "asymmetric_wash",
+    "specs": [
+     "Honed Roman travertine housing",
+     "IP66 architectural optical louvre",
+     "2200K–6500K tunable Planckian array"
+    ]
+   },
+   "secondaryPhotoboard": {
+    "off": {
+     "path": "/assets/plates/stop_01_off.png",
+     "sha256": "edf1d5db390e6f4666350bdb4d2f6f90f32ce3d0336a280bd919aeb1e44e02d6",
+     "bytes": 4335558
+    },
+    "2200k": {
+     "path": "/assets/plates/stop_01_2200k.png",
+     "sha256": "7e5be530e74a4392de99d59f39142b1069ce31c3f2819f1d741a929fccc8fcc1",
+     "bytes": 5044330
+    },
+    "3500k": {
+     "path": "/assets/plates/stop_01_3500k.png",
+     "sha256": "86f02116285dae95aafb0bfe6a181f0d07e04874e48862537ff07b524fe51d03",
+     "bytes": 5042495
+    },
+    "6500k": {
+     "path": "/assets/plates/stop_01_6500k.png",
+     "sha256": "ac187ff177a5231642ce91661aa9456e3bf4f598d725bf8b837e9ddd8d37dba6",
+     "bytes": 5114188
+    },
+    "depth": {
+     "path": "/assets/plates/stop_01_depth.png",
+     "sha256": "8ff25e10347917cae423d53296c2f6dd8e5a35901bb8d95b3453a6a64ea46618",
+     "bytes": 185623
+    },
+    "normal": {
+     "path": "/assets/plates/stop_01_normal.png",
+     "sha256": "3579788bde60f591d57c7f11a6c9dcf3608d06ede629fecdb612032f2c287188",
+     "bytes": 1228308
+    }
+   },
+   "tertiaryThreeLenis": {
+    "scrollRange": [
+     0.0,
+     0.3333
+    ],
+    "camera": {
+     "pos": [
+      0.0,
+      1.85,
+      11.2
+     ],
+     "lookAt": [
+      0.0,
+      1.65,
+      2.0
+     ],
+     "fovDeg": 38.0
+    },
+    "lightTarget": [
+     0.0,
+     0.2,
+     5.2
+    ]
+   }
+  },
+  {
+   "stopIndex": 2,
+   "stopCode": "02 / 03",
+   "stopId": "travertine_hall",
+   "zoneLabel": "The hall",
+   "headline": "Then step inside.",
+   "bodyCopy": "A monolithic travertine gallery where bi-directional alabaster wall sconces graze the stone pores above a floating oak console.",
+   "luminaire": {
+    "id": "marble_wall_sconce_02",
+    "name": "Carved Alabaster Wall Sconce",
+    "category": "Interior Grazing Sconce",
+    "priceTag": "$345",
+    "beamAngleDeg": 42,
+    "cri": 98,
+    "baseLux": 320,
+    "defaultKelvin": 3000,
+    "defaultDimmer": 0.88,
+    "iesProfile": "bidirectional_graze",
+    "specs": [
+     "Carved solid Pietra Grey & alabaster diffuser",
+     "Zero-glare deep regression baffle",
+     "Dual up/down grazing wall-wash optics"
+    ]
+   },
+   "secondaryPhotoboard": {
+    "off": {
+     "path": "/assets/plates/stop_02_off.png",
+     "sha256": "09d6c5f5ef1696f0c177feec6858678fd641b78e4f2809b586293d5a00dba313",
+     "bytes": 4465647
+    },
+    "2200k": {
+     "path": "/assets/plates/stop_02_2200k.png",
+     "sha256": "437044b5bc5194dfd600995d493e159bc1d8530753fa531626a48953acf893e3",
+     "bytes": 5064570
+    },
+    "3500k": {
+     "path": "/assets/plates/stop_02_3500k.png",
+     "sha256": "ebe07e5cdf5fa4d58adb77f474d108273c606209cd3d0925a8edf71c74e9a593",
+     "bytes": 5032665
+    },
+    "6500k": {
+     "path": "/assets/plates/stop_02_6500k.png",
+     "sha256": "1c1e1d6dc02f8eb1bccfecbb4f6abfa051fdde734e671898fd06679599a1e586",
+     "bytes": 5059540
+    },
+    "depth": {
+     "path": "/assets/plates/stop_02_depth.png",
+     "sha256": "62e21f39a3e21aeb72e0015f67c6e171e0a15d5aa6591d5af23bf55036cbe080",
+     "bytes": 103965
+    },
+    "normal": {
+     "path": "/assets/plates/stop_02_normal.png",
+     "sha256": "eff43f32939a0f6cd51bb89b921a061e7ad9c7350064e76468be28d00fd5ecc2",
+     "bytes": 765728
+    }
+   },
+   "tertiaryThreeLenis": {
+    "scrollRange": [
+     0.3333,
+     0.6667
+    ],
+    "camera": {
+     "pos": [
+      0.0,
+      1.75,
+      2.4
+     ],
+     "lookAt": [
+      -0.3,
+      1.7,
+      -5.0
+     ],
+     "fovDeg": 36.0
+    },
+    "lightTarget": [
+     -2.2,
+     2.1,
+     -2.0
+    ]
+   }
+  },
+  {
+   "stopIndex": 3,
+   "stopCode": "03 / 03",
+   "stopId": "stair_hall",
+   "zoneLabel": "The stair hall",
+   "headline": "Fill the height.",
+   "bodyCopy": "Floating travertine treads with warm under-tread linear LED coves frame a five-globe cognac glass chandelier across both floors.",
+   "luminaire": {
+    "id": "cognac_stair_chandelier_03",
+    "name": "Cognac Glass Globe Staircase Chandelier",
+    "category": "Double-Height Suspension",
+    "priceTag": "$595",
+    "beamAngleDeg": 110,
+    "cri": 99,
+    "baseLux": 460,
+    "defaultKelvin": 2400,
+    "defaultDimmer": 0.92,
+    "iesProfile": "omnidirectional_cluster",
+    "specs": [
+     "Hand-blown cognac borosilicate spheres",
+     "Brushed architectural bronze canopy track",
+     "Coupled pendulum suspension + under-tread cove sync"
+    ]
+   },
+   "secondaryPhotoboard": {
+    "off": {
+     "path": "/assets/plates/stop_03_off.png",
+     "sha256": "9fef161788462cd57b53711d807ad6ab96ead05ee35cf80e000d75d607e49f76",
+     "bytes": 3833457
+    },
+    "2200k": {
+     "path": "/assets/plates/stop_03_2200k.png",
+     "sha256": "620630490221e5e720c5f3a85c8b0d530cfcc17f204c32686438599c83f7e3bf",
+     "bytes": 4407713
+    },
+    "3500k": {
+     "path": "/assets/plates/stop_03_3500k.png",
+     "sha256": "63c870ae0c358293cfb633a6454acb45a2a0560cbc8dfd311837f458615641c8",
+     "bytes": 4376267
+    },
+    "6500k": {
+     "path": "/assets/plates/stop_03_6500k.png",
+     "sha256": "4a8c5dfd0702cf7d1129ace293c4dc0fa96746533ce7825db7c9c176f69baa7e",
+     "bytes": 4389777
+    },
+    "depth": {
+     "path": "/assets/plates/stop_03_depth.png",
+     "sha256": "ce81a64217cc28217ff85b9214cee8178352d84333de946404446a8b55b7b61a",
+     "bytes": 135903
+    },
+    "normal": {
+     "path": "/assets/plates/stop_03_normal.png",
+     "sha256": "1c43e6b4ccb9c9ce3f0a06f98615f63dd6946607ea67ec33b90d269d80046729",
+     "bytes": 1007299
+    }
+   },
+   "tertiaryThreeLenis": {
+    "scrollRange": [
+     0.6667,
+     1.0
+    ],
+    "camera": {
+     "pos": [
+      0.2,
+      2.35,
+      -3.8
+     ],
+     "lookAt": [
+      0.0,
+      2.65,
+      -11.5
+     ],
+     "fovDeg": 35.0
+    },
+    "lightTarget": [
+     0.4,
+     3.8,
+     -8.8
+    ]
+   }
+  }
+ ]
+}
